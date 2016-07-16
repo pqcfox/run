@@ -3,10 +3,22 @@ html, body {
   margin: 0;
 }
 
+.odometer, .tag {
+  !important font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
 .odometer {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 100px;
+  font-size: 25vw;
+}
+
+.tag {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  font-size: 2vw;
 }
