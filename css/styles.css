@@ -3,8 +3,13 @@ html, body {
   margin: 0;
 }
 
+html {
+  background-image: url('../images/background.png');
+}
+
 .odometer, .tag {
   font-family: 'Roboto' !important;
+  color: #333333
 }
 
 .odometer {
