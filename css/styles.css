@@ -18,7 +18,8 @@ html, body {
 
 .tag {
   position: absolute;
-  top: 75%;
-  left: 65%;
-  font-size: 3vw;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6vw;
 }
