@@ -4,8 +4,7 @@ html, body {
 }
 
 .odometer, .tag {
-  font-family: 'Roboto';
-  font-weight: 300;
+  font-family: 'Roboto' !important;
 }
 
 .odometer {
@@ -13,13 +12,16 @@ html, body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 25vw;
+  font-size: 25vmin;
+  font-weight: 100;
 }
 
 .tag {
   position: absolute;
-  top: 80%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 6vw;
+  font-size: 6vmin;
+  font-weight: 300;
+  font-style: italic;
 }
